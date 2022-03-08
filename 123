@@ -1,0 +1,8 @@
+GET /api/v1/block-index/<block height>
+GET /api/v1/tx/<txid>
+GET /api/v1/address/<address>
+GET /api/v1/utxo/<address>
+GET /api/v1/block/<block height | block hash>
+GET /api/v1/estimatefee/<number of blocks>
+GET /api/v1/sendtx/<hex tx data>
+POST /api/v1/sendtx (hex tx data in request body)  
